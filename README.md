@@ -1,24 +1,15 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### Appli des formulaires
 
-Things you may want to cover:
+https://formulaires-app.herokuapp.com/
 
-* Ruby version
+### Version ruby
 
-* System dependencies
+ruby '2.5.1'
 
-* Configuration
+### Installation
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```
+$ heroku open
+```
