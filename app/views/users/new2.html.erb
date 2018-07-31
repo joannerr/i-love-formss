@@ -1,0 +1,30 @@
+<!-- entrer un utilisateur -->
+
+<html>
+
+  <head>
+    <title>Formulaire</title>
+  </head>
+
+  <body>
+    <h1>Formulaire n°2 : Enregistrements des utilisateurs</h1>
+
+    <p>Entrez vos coordonnées :</p>
+
+   <%= form_tag method: "post" do %>
+
+      <%= label_tag "Nom d'utilisateur" %><br /> 
+      <%= text_field_tag 'username' %><br />
+
+      <%= label_tag 'Email' %><br />
+      <%= text_field_tag 'email' %><br />
+       
+      <%= label_tag 'Bio' %><br />
+      <%= text_field_tag 'bio' %><br />
+
+      <%= submit_tag "Enregistrer" %>
+    <% end %>
+
+  </body>
+
+</html>
